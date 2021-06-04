@@ -1,0 +1,103 @@
+/* 
+.newCanvas{
+    justify-content: center;
+}
+.AddNewDocumentForm{
+    display: flex;
+    max-width: 850px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.rightSide{
+    width: 50%;
+    margin-left: 0;
+}
+.leftSide{
+    width: 50%;
+    margin-right: 0;
+}
+.smallInput{
+    display: flex;
+    padding: 0 0 10px 0;
+    margin: 0 auto 10px auto;
+    justify-content: center;
+    max-width: 400px;
+}
+.height{
+    width: 32%;
+    margin: 0 10px 0 0;
+}
+.weight{
+    width: 32%;
+    margin: 0;
+} */
+
+label{
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    border-radius: 3px;
+    width: 300px;
+    height: 50px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    font-size: 18px;
+    color: #0a1931;
+    font-weight: 300;
+}
+.spacer{
+    height: 50px;
+}
+.AddNewDocumentForm{
+    justify-content: center;
+    margin: 0 auto;
+}
+label p{
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    color: white;
+}
+.newCanvas2{
+    display: none;
+}
+.rightSide{
+    width: fit-content!important;
+    justify-content: center;
+}
+.leftSide{
+    width: fit-content;
+}
+.bottom10px{
+    margin-bottom: 10px;
+}
+.height{
+    width: 145px;
+    margin: 0 10px 0 0;
+}
+.weight{
+    margin: 0;
+    width: 145px;
+}
+.smallInput{
+    display: flex;
+    width: fit-content!important;
+    justify-content: center;
+}
+.savebutton{
+    margin-top: 10px;
+}
+.red{
+    border-color: #f54748;
+    box-shadow: 0 0 10px #f54748;
+}
+.addr{
+    height: 110px;
+}
+.error{
+    color: #f54748;
+    display: none;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+}

@@ -1,0 +1,40 @@
+
+
+button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #185adb;
+    border-radius: 3px;
+    width: 300px;
+    font-size: 18px;
+  }
+  button:hover{
+      background-color: #0a1931;
+      color: #fff;
+  }
+  button:focus{
+      outline: none;
+  }
+
+
+  .button {
+    appearance: none;
+    outline: 0;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    color: #185adb;
+    border-radius: 3px;
+    width: 300px;
+    font-size: 18px;
+  }
+  .button:hover{
+      background-color: #0a1931;
+      color: #fff;
+  }
+  .button:focus{
+      outline: none;
+  }

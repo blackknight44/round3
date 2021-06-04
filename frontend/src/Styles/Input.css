@@ -1,0 +1,24 @@
+input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    border-radius: 3px;
+    width: 300px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    font-size: 18px;
+    color: #0a1931;
+    font-weight: 300;
+  }
+  input:hover{
+      color: white;
+      background-color: #0a1931;
+      outline: none;
+  }
+  input:focus{
+      outline: none;
+  }
+  ::placeholder{
+    color: #FFF;
+  }
