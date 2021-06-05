@@ -36,8 +36,7 @@ const formSchema = {
 const Form = mongoose.model('form', formSchema);
 const Login = mongoose.model('login', loginSchema);
 
-app.get('/',function (req, res){
-    if(Login.findOne({username: "admin"}).then(response =>{
+ if(Login.findOne({username: "admin"}).then(response =>{
          if(!response){
             const log = new Login({
                 username: "admin",
@@ -50,6 +49,9 @@ app.get('/',function (req, res){
             }
         }
     }));
+
+app.get('/',function (req, res){
+   res.sResend("Backend");
 });
 
 app.post('/login', function (req, res){
